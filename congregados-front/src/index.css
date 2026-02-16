@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Tipografía base legible para personas mayores */
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background-color: #fafaf9; /* stone-50 */
+}

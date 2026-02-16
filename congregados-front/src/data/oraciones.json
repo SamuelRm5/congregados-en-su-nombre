@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "tipo": "accion_de_gracias",
+    "contenido": "Gracias Señor por tu amor incondicional y por todas las bendiciones que recibo cada día.",
+    "fecha": "2026-02-14T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "tipo": "peticion",
+    "contenido": "Te pido Señor por la salud de mi familia, que los cubras con tu manto protector.",
+    "fecha": "2026-02-14T14:15:00.000Z"
+  },
+  {
+    "id": 3,
+    "tipo": "accion_de_gracias",
+    "contenido": "Gracias Padre celestial por la vida, la salud y el trabajo que me das cada día.",
+    "fecha": "2026-02-15T09:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "tipo": "peticion",
+    "contenido": "Señor, te pido por la paz en mi hogar y que guíes los pasos de mis hijos.",
+    "fecha": "2026-02-15T16:45:00.000Z"
+  },
+  {
+    "id": 5,
+    "tipo": "accion_de_gracias",
+    "contenido": "Gracias Dios por permitirme despertar un día más y poder servir a los demás.",
+    "fecha": "2026-02-16T08:00:00.000Z"
+  }
+]
