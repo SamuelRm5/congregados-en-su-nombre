@@ -25,7 +25,7 @@ import { PrayersModule } from './prayers/prayers.module';
     // Servir el frontend compilado desde /public
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
-      exclude: ['/api/(.*)'],
+      exclude: ['/api*'],
     }),
 
     TypeOrmModule.forRoot({
