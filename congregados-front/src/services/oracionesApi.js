@@ -1,7 +1,7 @@
-const API_BASE = "/api/v1/prayers";
+const API_BASE = "/oraciones/api/v1/prayers";
 
 /**
- * POST /api/v1/prayers
+ * POST /oraciones/api/v1/prayers
  * Envía una nueva oración (acción de gracias o petición)
  */
 export async function enviarOracion({ tipo, contenido }) {

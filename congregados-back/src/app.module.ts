@@ -2,9 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ThrottlerModule, ThrottlerGuard } from '@nestjs/throttler';
-import { ServeStaticModule } from '@nestjs/serve-static';
 import { APP_GUARD } from '@nestjs/core';
-import { join } from 'path';
 import { PrayersModule } from './prayers/prayers.module';
 
 @Module({
@@ -21,12 +19,6 @@ import { PrayersModule } from './prayers/prayers.module';
         limit: 20,
       },
     ]),
-
-    // Servir el frontend compilado desde /public
-    ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'public'),
-      serveRoot: '/',
-    }),
 
     TypeOrmModule.forRoot({
       type: 'mysql',

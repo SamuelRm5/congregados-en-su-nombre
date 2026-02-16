@@ -4,12 +4,14 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/oraciones/',
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      "/api": {
-        target: "http://localhost:3000",
+      "/oraciones/api": {
+        target: "http://localhost:3001",
         changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/oraciones\/api/, '/api'),
       },
     },
   },
